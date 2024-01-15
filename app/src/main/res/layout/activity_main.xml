@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_centerInParent="true"
+        android:id="@+id/age24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age 2-4"
+         />
+
+    <Button
+        android:layout_below="@+id/age24"
+        android:id="@+id/age56"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age 5-6"
+        />
+
+    <Button
+        android:id="@+id/age79"
+        android:layout_below="@+id/age56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age 7-9"
+        android:layout_centerInParent="true"
+       />
+</RelativeLayout>
